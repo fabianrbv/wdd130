@@ -1,0 +1,71 @@
+.main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#active {
+    background-color: #4682b4;
+    color: rgb(4, 18, 29);
+}
+
+main p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border: 50px steelblue;
+}
+
+p {
+    width: 100%;
+}
+
+a {
+    font-size: 1.5em;
+    color: white;
+    padding: 25px;
+}
+
+a:hover, #active:hover {
+    background-color: white;
+    color: #4682b4;
+}
+
+h1{
+    margin: 50px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: steelblue;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+/* * {
+    border: 2px solid blue;
+} */
+
+footer {
+    
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+body {
+    text-align: center;
+    margin: 0
+}
