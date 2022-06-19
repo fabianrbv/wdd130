@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link  { 
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 175px;
+}
+
+#hero-msg h1 {
+    text-align: center;
+}
+
+#hero-msg h4 {
+    text-align: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.idaho, .idaho2, .utah, .utah2, .arizona, .arizona2{
+    display: block;
+    margin: 0 auto;
+    max-width: 500px
+  }
+nav a {
+    text-align: center;
+    color: #d9c2a3;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: rgb(133, 133, 133);
+    color: #ffffff;
+}
+
+.home-title{
+    color: #4e944e;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+h4 {
+    color: #4e944e;
+}
+main section {
+    text-align: center;
+}
+main section img {
+    box-sizing: border-box;
+}
+#background {
+    height: 725px;
+    grid-column: 1/11;
+    grid-row: 4/9;
+    background-color: rgb(112, 141, 106)
+}
+
+body {
+    background-color: #fcfbfb; 
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:rgba(20,30,13, .7);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+h2{
+    color: #000000;
+    margin: 0;
+}
+footer   {
+    background-color: #839e7d;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3{
+    color: #ffffff;
+    text-decoration: none ;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+a:hover{
+    color: #000000;
+    text-decoration: none ;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .rivers-grid {
+        display: block;
+        height: auto;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}

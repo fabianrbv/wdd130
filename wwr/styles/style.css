@@ -214,13 +214,6 @@ a:hover{
         display: block;
         height: auto;
     }
-    nav, footer {
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
     #hero {
         margin-top: 0;
     }
@@ -229,6 +222,13 @@ a:hover{
     }
     #hero-msg h4 {
         display: none;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
     }
     .home-title {
         font-size: 25px;
