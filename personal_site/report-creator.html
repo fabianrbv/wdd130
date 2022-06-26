@@ -5,10 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Report Creator</title>
+    <link rel="stylesheet" href="styles/report-creator.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo.jpg" alt="Reports Website Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="report-creator.html">Report Creator</a>
+                <a href="brainstorming.html">Brainstorming</a>
+            </nav>
+        </header>
+        <div id="title">
+            <h1 class="home-title">Welcome to Report Creator Website</h1>
+        </div>
+        <main>
+            <section class="input">
+                <h1 class="title">Write your notes or the information you want to report</h1>
+                <form action="/report" method="post">
+                    <ul>
+                    <li>
+                    <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Load your content</button>
+                    </li>
+                    </ul>
+                </form>
+                <img class="text" src="images/text.jpg" alt="">
+            </section>
+
+            <section class="color and font">
+                <h1 class="title">you can choose the color of the text you will use and the font</h1>
+                    <h4>Type your color. (#000000)</h4>
+                    <textarea id="color" name="user_message"></textarea>
+                    <h4>Type your fount name</h4>
+                    <textarea id="fount" name="user_message"></textarea>
+                <img class="letters" src="images/color and font.jpg" alt="">
+            </section>
+
+            <section class="graphics">
+                <h1 class="title">Do you want graphs in your report? you can choose which style</h1>
+                <img class="graphic1" src="images/grafico1.png" alt="">
+                <img class="graphic2" src="images/grafico2.jpg" alt="">
+                <img class="graphic3" src="images/grafico3.jpg" alt="">
+                <img class="graphic4" src="images/grafico4.png" alt="">
+
+            </section>
+            <section class="done">
+                <div class='button-box1'>
+                    <a class='Download' href="rates.html">Download</a>
+                    <img class="download" src="images/descargar.PNG" alt="">
+                </div>
+                <div class='button-box2'>
+                    <a class='Remake' href="rates.html">Remake</a>
+                    <img class="remake" src="images/rehacer.PNG" alt="">
+                </div>
+                <div class='button-box3'>
+                    <a class='View' href="rates.html">View</a>
+                    <img class="view" src="images/mirar.PNG" alt="">
+                </div>
+            </section>
+
+        </main>
+        <footer>
+            <h3>Reports Website &copy; 2022 - Fabian Betancourt</h3>
+            <h3><a href="site-plan.html">Site Plan</a></h3>
+            <h3><a href="contactus.html">Contact Us</a></h3>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
