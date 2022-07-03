@@ -13,3 +13,95 @@
 .download, .remake, .view{
     width: 3%;
 }
+
+.logo {
+    width: 100px;
+}
+
+#logo_link  { 
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+header {
+    background-color:#457B9D;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #F1FAEE;
+    text-decoration: none;
+    padding: 35px;
+}
+main{
+    margin:1%;
+}
+nav a:hover {
+    background-color: #A8DADC;
+    color: #457B9D;
+}
+
+main div {
+    text-align: center;
+}
+#input, #color-and-font, #done{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+form{
+    grid-column: 1/5;
+}
+#text{
+    grid-column: 5/8;
+    width: 50%;
+}
+
+body {
+    background-color: #fcfbfb; 
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+}
+#letters{
+    grid-column: 6/8;
+    width: 80%;
+}
+#graphics{
+    text-align: center;
+}
+
+
+footer   {
+    background-color: #457B9D;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3{
+    color: #F1FAEE;
+    text-decoration: none ;
+}
+
+footer a {
+    color: #F1FAEE;
+    text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+a:hover{
+    color: #000000;
+    text-decoration: none ;
+}

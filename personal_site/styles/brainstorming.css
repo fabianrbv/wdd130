@@ -4,3 +4,75 @@
 .a, .b, .c, .d, .f, .g, .h, .i, .j, .k, .l{
     width: 15%;
 }
+
+
+.logo {
+    width: 100px;
+}
+
+#logo_link  { 
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+header {
+    background-color:#457B9D;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #F1FAEE;
+    text-decoration: none;
+    padding: 35px;
+}
+main{
+    margin:1%;
+}
+nav a:hover {
+    background-color: #A8DADC;
+    color: #457B9D;
+}
+
+main div {
+    text-align: center;
+}
+
+body {
+    background-color: #fcfbfb; 
+    margin: 0;
+    padding: 0;
+}
+
+
+footer   {
+    background-color: #457B9D;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3{
+    color: #F1FAEE;
+    text-decoration: none ;
+}
+
+footer a {
+    color: #F1FAEE;
+    text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+a:hover{
+    color: #000000;
+    text-decoration: none ;
+}
