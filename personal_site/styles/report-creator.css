@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+h4, h2 {
+    font-family: Lato;
+}
+
+h1, h2{
+    color: #E63946;
+}
+
+h2 {
+    margin: 5%;
+
+}
+textarea, button {
+    margin-left: 40%;
+    
+}
+
+form textarea{
+    margin-left: 45%;
+}
+
+.type {
+    margin: 30%;
+}
+
 .logo{
     width: 15%;
 }
@@ -11,7 +38,9 @@
     width: 20%;
 }
 .download, .remake, .view{
-    width: 3%;
+    margin-top: 50%;
+    width: 20%;
+
 }
 
 .logo {
@@ -51,7 +80,18 @@ nav a:hover {
 main div {
     text-align: center;
 }
+
+#done{
+    align-content: center;
+}
+
+
 #input, #color-and-font, #done{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.input{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }

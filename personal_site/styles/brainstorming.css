@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+h4, h2 {
+    font-family: Lato;
+}
+h2 {
+    color: #E63946;
+    margin-top: 5%;
+}
+
+h1 {
+    color: #E63946;
+}
+
 .logo{
     width: 15%;
 }
 .a, .b, .c, .d, .f, .g, .h, .i, .j, .k, .l{
-    width: 15%;
+    width: 20%;
 }
 
 
